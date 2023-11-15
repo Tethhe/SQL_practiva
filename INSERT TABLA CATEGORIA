@@ -1,0 +1,14 @@
+--USER 1
+Insert into CATEGORIA (NOMBRE, DESCRIPCION values ('perifericos', ' dispositivos que ingresan información desde el exterior y también muestran al usuario los resultados de las operaciones. tarjetas de red, las unidades de almacenamiento (discos duros, Cd, Dvd) o las memorias, (USB, flash, etc.') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION values ('tegnologia', 'Dispositivos  de ultima generacion . smar tv, laptop.') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION values ('carnes',' Variedad de carnes ,pollo, pavo, pescado') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION values ('componentes', ' dispositivo que forma parte de un circuito electrónico. tarjeta de video, procesador,discos ') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION values ('muebles', '  Cada uno de los enseres movibles que sirven para los usos necesarios o para decorar casas, oficinas y todo género de locales. ') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION values ('frutas', ' producto alimenticio comestible que se obtiene de plantas o árboles y que se caracteriza por ser generalmente de sabor dulce ') 
+--USER 2
+Insert into CATEGORIA (NOMBRE, DESCRIPCION) values ('Cereales', 'Cereales deliciosos para cada gusto') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION) values ('Lacteos', 'Descubre frescura y calidad en nuestra seccion de lacteos') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION) values ('Videojuegos' , 'Sumergete en la diversión en nuestra seccion de videjuegos,) 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION) values ('Equipos de sonido', 'Potecia tu sonido con nuestra variedad de equipos') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION) values ('Accesorios moviles', 'Accesorios moviles imprencindibles') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION) values ('Gaming', 'Transforma tu estilo de juego') 
