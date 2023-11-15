@@ -1,0 +1,11 @@
+--USER 1 
+Insert into TELEFONO (telefono) values ('987654321')  
+Insert into TELEFONO (telefono) values ('912345678')  
+Insert into TELEFONO (telefono) values ('921345678')  
+Insert into TELEFONO (telefono) values ('932145678')  
+Insert into TELEFONO (telefono) values ('943215678')  
+Insert into TELEFONO (telefono) values ('954321678')  
+Insert into TELEFONO (telefono) values ('965432178')  
+Insert into TELEFONO (telefono) values ('999222111')  
+Insert into TELEFONO (telefono) values ('945342322')  
+Insert into TELEFONO (telefono) values ('954234525') 
