@@ -1,0 +1,11 @@
+--USER 1
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 30.50, 8) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 650.10, 2) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 950.70, 5) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 110.90, 7) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 56.60, 1) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 120.740, 3) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 36. 20, 4) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 56.40, 6) 
+--USER 2
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 8000.56, 5) 
