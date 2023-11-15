@@ -1,0 +1,108 @@
+--INSERT TABLA TELEFONO
+
+
+Insert into TELEFONO (telefono) values ('987654321')  
+Insert into TELEFONO (telefono) values ('912345678')  
+Insert into TELEFONO (telefono) values ('921345678')  
+Insert into TELEFONO (telefono) values ('932145678')  
+Insert into TELEFONO (telefono) values ('943215678')  
+Insert into TELEFONO (telefono) values ('954321678')  
+Insert into TELEFONO (telefono) values ('965432178')  
+Insert into TELEFONO (telefono) values ('999222111')  
+Insert into TELEFONO (telefono) values ('945342322')  
+Insert into TELEFONO (telefono) values ('954234525') 
+
+
+--INSERT TABLA PROVEEDOR 
+
+
+Insert into PROVEEDOR( razón_social, ruc, direccion, telefono, web) Values( 'Manabí Games' , '13126326050', 'calle mexico y avenida america', '593990059117' ,  'https://manabigames.org/')
+Insert into PROVEEDOR( razón_social, ruc, direccion, telefono, web) Values( 'MG TECHNOLOGY PERU SOCIEDAD ANONIMA CERRADA', '20603587074', 'Av. Wilson Nro. 1282 Int. 108' , '985485695' ,'https://www.mgtechnologyperu.com') 
+Insert into PROVEEDOR( razón_social, ruc, direccion, telefono, web) Values( 'TECH CONTROL EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA', '20544336623', 'Av. la Molina Nro. 2830 Int', '3433089', 'https://jjtech.com/') 
+Insert into PROVEEDOR( razón_social, ruc, direccion, telefono, web) Values( 'MICROELECTRONIC & LAPTOPPARTS S.A.C.', '20535072559', 'Iv Etapa Mz Nro. K-13 Urb. las Palmeras', '987654321', 'https://www.hola.com') 
+
+--INSERT TABLA PRODUCTO
+
+
+Insert into PRODUCTO (NOMBRE, PRECIO, STOCK,TELEFONO) VALUES ('mouse','70','200','987654321') 
+Insert into PRODUCTO (NOMBRE, PRECIO, STOCK,TELEFONO) VALUES ('Procesador','500','125','985647123') 
+Insert into PRODUCTO (NOMBRE, PRECIO, STOCK,TELEFONO) VALUES ('Monitor','625','200','147852963' ) 
+Insert into PRODUCTO (NOMBRE, PRECIO, STOCK,TELEFONO) VALUES ('Fuente','525','200','456789123') 
+Insert into PRODUCTO (NOMBRE, PRECIO, STOCK,TELEFONO) VALUES ('Tarjeta de video','3299','200','579642183') 
+Insert into PRODUCTO (NOMBRE, PRECIO, STOCK,TELEFONO) VALUES ('case','110','200','753942861') 
+Insert into PRODUCTO (NOMBRE, PRECIO, STOCK,TELEFONO) VALUES ('teclado','50','200','804670123') 
+Insert into PRODUCTO (NOMBRE, PRECIO, STOCK,TELEFONO) VALUES ('disco solido','190','200','900113745') 
+Insert into PRODUCTO (NOMBRE, PRECIO, STOCK,TELEFONO) VALUES ('ps5','2399','200','700459618') 
+
+
+--INSERT TABLA CATEGORIA
+
+
+Insert into CATEGORIA (NOMBRE, DESCRIPCION) values ('perifericos', ' dispositivos que ingresan información desde el exterior y también muestran al usuario los resultados de las operaciones. tarjetas de red, las unidades de almacenamiento (discos duros, Cd, Dvd) o las memorias, (USB, flash, etc.') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION) values ('tegnologia', 'Dispositivos  de ultima generacion . smar tv, laptop.') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION) values ('carnes',' Variedad de carnes ,pollo, pavo, pescado') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION) values ('componentes', ' dispositivo que forma parte de un circuito electrónico. tarjeta de video, procesador,discos ') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION) values ('muebles', '  Cada uno de los enseres movibles que sirven para los usos necesarios o para decorar casas, oficinas y todo género de locales. ') 
+Insert into CATEGORIA (NOMBRE, DESCRIPCION) values ('frutas', ' producto alimenticio comestible que se obtiene de plantas o árboles y que se caracteriza por ser generalmente de sabor dulce ') 
+
+
+--INSERT TABLA VENTA
+
+
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 30.50, 8) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 650.10, 2) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 950.70, 5) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 110.90, 7) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 56.60, 1) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 120.740, 3) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 36.20, 4) 
+Insert into VENTA (fecha, monto_final, id_cliente) values (CURRENT_TIMESTAMP, 56.40, 6) 
+
+
+--INSERT TABLA PRODUCTO_CATEGORIA
+
+
+Insert into PRODUCTO_CATEGORIA(ID_PRODUCTO,ID_CATEGORIA)VALUES(1,7) 
+Insert into PRODUCTO_CATEGORIA(ID_PRODUCTO,ID_CATEGORIA)VALUES(5,3) 
+Insert into PRODUCTO_CATEGORIA(ID_PRODUCTO,ID_CATEGORIA)VALUES(2,3) 
+Insert into PRODUCTO_CATEGORIA(ID_PRODUCTO,ID_CATEGORIA)VALUES(4,3) 
+Insert into PRODUCTO_CATEGORIA(ID_PRODUCTO,ID_CATEGORIA)VALUES(8,3) 
+Insert into PRODUCTO_CATEGORIA(ID_PRODUCTO,ID_CATEGORIA)VALUES(6,3) 
+
+
+--INSERT TABLA PRODUCTO_PROVEEDOR
+
+
+INSERT INTO PRODUCTO_PROVEEDOR (ID_PROVEEDOR, ID_PRODUCTO) VALUES (1,1) 
+INSERT INTO PRODUCTO_PROVEEDOR (ID_PROVEEDOR, ID_PRODUCTO) VALUES (10,5) 
+INSERT INTO PRODUCTO_PROVEEDOR (ID_PROVEEDOR, ID_PRODUCTO) VALUES (5,2) 
+INSERT INTO PRODUCTO_PROVEEDOR (ID_PROVEEDOR, ID_PRODUCTO) VALUES (8,3) 
+INSERT INTO PRODUCTO_PROVEEDOR (ID_PROVEEDOR, ID_PRODUCTO) VALUES (105,36) 
+
+
+--INSERT TABLA TELEFONO_CLIENTE
+
+
+INSERT INTO TELEFONO_CLIENTE (ID_TELEFONO, ID_CLIENTE) VALUES (1,'JOSE') 
+INSERT INTO TELEFONO_CLIENTE (ID_TELEFONO, ID_CLIENTE) VALUES (2,'JOSE') 
+INSERT INTO TELEFONO_CLIENTE (ID_TELEFONO, ID_CLIENTE) VALUES (3,'JOSE') 
+INSERT INTO TELEFONO_CLIENTE (ID_TELEFONO, ID_CLIENTE) VALUES (4,'JOSE') 
+INSERT INTO TELEFONO_CLIENTE (ID_TELEFONO, ID_CLIENTE) VALUES (5,'JOSE') 
+INSERT INTO TELEFONO_CLIENTE (ID_TELEFONO, ID_CLIENTE) VALUES (6,'JOSE') 
+INSERT INTO TELEFONO_CLIENTE (ID_TELEFONO, ID_CLIENTE) VALUES (7,'JOSE') 
+INSERT INTO TELEFONO_CLIENTE (ID_TELEFONO, ID_CLIENTE) VALUES (8,'JOSE') 
+
+
+--INSERT TABLA DETALLE_VENTA
+
+
+INSERT INTO DETALLE_VENTA (ID_VENTA, ID_PRODUCTO, CANTIDAD, PRECIO, SUB_TOTAL) VALUES (1, 3, 12, 4.50, 54.00) 
+INSERT INTO DETALLE_VENTA (ID_VENTA, ID_PRODUCTO, CANTIDAD, PRECIO, SUB_TOTAL) VALUES (2, 5, 3, 5.00, 15.00) 
+INSERT INTO DETALLE_VENTA (ID_VENTA, ID_PRODUCTO, CANTIDAD, PRECIO, SUB_TOTAL) VALUES (3, 2, 1, 6.90, 6.90) 
+INSERT INTO DETALLE_VENTA (ID_VENTA, ID_PRODUCTO, CANTIDAD, PRECIO, SUB_TOTAL) VALUES (4, 7, 4, 6.00, 24.00) 
+INSERT INTO DETALLE_VENTA (ID_VENTA, ID_PRODUCTO, CANTIDAD, PRECIO, SUB_TOTAL) VALUES (5, 9, 12, 2.50, 30.00) 
+INSERT INTO DETALLE_VENTA (ID_VENTA, ID_PRODUCTO, CANTIDAD, PRECIO, SUB_TOTAL) VALUES (6, 10, 4, 3.50, 14.00) 
+INSERT INTO DETALLE_VENTA (ID_VENTA, ID_PRODUCTO, CANTIDAD, PRECIO, SUB_TOTAL) VALUES (7, 1, 4, 5.50, 22.00) 
+INSERT INTO DETALLE_VENTA (ID_VENTA, ID_PRODUCTO, CANTIDAD, PRECIO, SUB_TOTAL) VALUES (8, 3, 5, 5.50, 27.50 ) 
+INSERT INTO DETALLE_VENTA (ID_VENTA, ID_PRODUCTO, CANTIDAD, PRECIO, SUB_TOTAL) VALUES (8, 3 ) 
+INSERT INTO DETALLE_VENTA (ID_VENTA, ID_PRODUCTO, CANTIDAD, PRECIO, SUB_TOTAL) VALUES (8, 3 ) 
