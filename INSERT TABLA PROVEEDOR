@@ -1,0 +1,13 @@
+--USER 1
+Into All 
+Into PROVEEDOR( razon_social, ruc, direccion, telefono, web)  Values( 'Manabí Games' , '1312632605001', 'calle mexico y avenida america', '+593 99 005 9117' ,  'https://manabigames.org/')  
+Into PROVEEDOR( razon_social, ruc, direccion, telefono, web)  Values( 'MG TECHNOLOGY PERU SOCIEDAD ANONIMA CERRADA - MG TECHNOLOGY PERU S.A.C', '20603587074', 'Av. Wilson Nro. 1282 Int. 108' , '985485695' ,'https://www.mgtechnologyperu.com')  
+Into PROVEEDOR( razon_social, ruc, direccion, telefono, web)  Values('JJ TECH CONTROL EMPRESA INDIVIDUAL DE RESPONSABILIDAD LIMITADA - JJ TECH CONTROL E.I.R.L', '20544336623', 'Av. la Molina Nro. 2830 Int. C8 Urb. el Sauce', '3433089', 'https://jjtech.com/')  
+Into PROVEEDOR( razon_social, ruc, direccion, telefono, web)  Values('MICROELECTRONIC & LAPTOPPARTS S.A.C.', '20535072559', 'Bl. Iv Etapa Mz Nro. K-13 Urb. las Palmeras', 'https://www.facebook.com/microelectronic.laptopparts.sac/?locale=es_LA' )  
+Select *  From Dual 
+--USER 2 
+Insert all 
+Into Proveedor (Razon_Social, Ruc, Direccion, Telefono, Web) Values ('HALION INTERNACIONAL S.A. ', '20505970323', 'Av. Ignacio Merino Nro. 2488 Int. 401',  '998 176 889 ', 'http://www.halion.com.pe ') 
+Into Proveedor (Razon_Social, Ruc, Direccion, Telefono, Web) Values ('INFOTEC Centro de Investigación e Innovación en TIC. ', '20516411164', 'Av. Garcilazo de la Vega Nro. 1251 Int. 230 ---- Cercado de Lima ','+0123-456-789 ', 'https://www.infotec.com.pe') 
+Into Proveedor (Razon_Social, Ruc, Direccion, Telefono, Web) Values ('C & C COMPUTER SERVICE S.A.C.', '20510530951', 'Av. Bolivia Nro. 148 Int. 607', '955 402 775', 'https://cyccomputer.pe/') 
+Select * From Dual 
